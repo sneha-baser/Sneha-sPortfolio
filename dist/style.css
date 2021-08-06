@@ -1,0 +1,228 @@
+*{
+    margin:0px 0px;
+  padding:0px 0px;
+   box-sizing: border-box; 
+}
+ul {
+  list-style-type: none;
+
+}
+li {
+  float: left;
+  
+}
+li a {
+
+  padding: 1vh 1vw;
+  color:white;
+  font-size:1.5vw;
+
+  font-family: 'Style Script', cursive;
+  text-decoration: none;
+  
+ 
+}
+#more-about-me a{
+  text-decoration: none;
+}
+nav{
+  
+  background-color:#9F2B68;
+
+   position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em;
+  margin-left:auto;
+  height:80px;
+}
+#navbar{
+   display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#welcome-section{
+  background-image : url('https://wallpapercave.com/wp/wp2945008.jpg');
+  color:#DE3163;
+  margin-top:10vh;
+  width:100%;
+  height:80vh;
+  background-repeat : no-repeat;
+  background-size: cover;
+  text-align : center;
+}
+#hello{
+  padding-top:15vh;
+  font-size:2rem;
+}
+#name{
+  font-family: 'Poppins', sans-serif;
+  color:white;
+  font-size:3rem;
+  font-weight : bold;
+}
+a{
+/*   margin-left : 1vw; */
+  color:white;
+ 
+}
+i{
+  width:5vw;
+  height:10vh;
+}
+.btn {
+  margin-top:10vh;
+  font-size:1.5rem;
+  width:20vw;
+  height:10vh;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+.btn:hover{
+  color:#DE3163;
+}
+#more-about-me{
+  margin-top:10vh;
+  background:none;
+  width:190px;
+  height:50px;
+  padding: 2vh 0vw;
+  color:white;
+  border: 2px solid grey;
+  align-text:center;
+ 
+/*   margin-bottom:5vh; */
+}
+#more-about-me:hover{
+  border:2px solid #DE3163;
+}
+#About-me{
+  text-align:center;
+  background-image : url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv09VfyggPBq_xCHUxRu-BdU8wS3yjNW77hg&usqp=CAU');
+  background-repeat : no-repeat;
+  background-size:cover;
+}
+#About-me h2{
+  font-size:1.3rem;
+  color: #DE3163;
+  padding-top:20px;
+  font-weight:bold;
+}
+#intro{
+  color:black;
+  font-family: 'Poppins', sans-serif;
+  font-size:2rem;
+  font-weight : bold;
+  text-align:center;
+  padding-top:20px;
+  margin-bottom:10px;
+  
+}
+#parha{
+/*   color:grey; */
+  font-size:1rem;
+   font-family: 'Poppins', sans-serif;
+  text-align:justify;
+  margin:0px auto;
+}
+#block{
+  display: flex;
+  justify-content: flex-end;
+    align-items: center;
+  margin-left:2vw;
+/*   margin-bottom:50px; */
+}
+#block 
+#profileimg{
+  border-radius: 50%;
+  margin-right:2vw;
+  margin-bottom:20px;
+  
+}
+@media only screen and (max-width: 680px) {
+  #welcome-section {
+  margin-top:5vh;
+  }
+}
+#projects{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv09VfyggPBq_xCHUxRu-BdU8wS3yjNW77hg&usqp=CAU');
+  background-repeat : no-repeat;
+  background-size: cover;
+
+}
+#projects h1{
+  padding-top:5vh;
+  padding-bottom:5vh;
+  text-align:center;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.project-image{
+  width:380px;
+  height:370PX;
+  text-decoration:none;
+}
+#projects .project-title{
+  color:white;
+  font-size:1rem;
+  background-color:#ab274f;
+  border-radius:10px;
+  padding-bottom:2px;
+  font-family: 'Poppins', sans-serif;
+  text-align:center;
+  
+}
+#projects a{
+  text-decoration:none;
+  margin-bottom:10px;
+  margin-left:50px;
+}
+.project-title{
+  margin-left:2vw;
+
+}
+#project-grid{
+  margin-top:10px;
+  display:flex;
+  flex-direction: row;
+    flex-wrap: wrap;
+  
+ 
+}
+
+#contact{
+  background-image : url('https://wallpapercave.com/wp/wp2945008.jpg');
+  background-repeat : no-repeat;
+  background-size: cover;
+  text-align:center;
+}
+#contacth{
+  padding-top:15vh;
+  font-size:2rem;
+   color:#DE3163;
+}
+#contact h2{
+  padding-top:5vh;
+  font-size:2rem;
+   color:white;
+  
+}
+#contact p{
+  padding-top:1vh;
+  font-size:1rem;
+   color:white;
+   font-family: 'Poppins', sans-serif;
+  font-style:italic;
+}
+
+@media only screen and (max-width: 496px) {
+  #projects a{
+    margin-left:0px;
+  }
+}
